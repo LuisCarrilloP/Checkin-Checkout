@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 //http://localhost:4000/registrations
-app.use("/registrations", registersRouter)
+app.use("/api/v1/registrations", registersRouter)
 
 
 
